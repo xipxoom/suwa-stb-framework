@@ -16,7 +16,7 @@ We also use a number of node.js tools to install and initialize dependencies. Yo
 
 ### Clone the repository
 
-Clone the repository using [git][git]:
+Clone the repository using git:
 
 ```
 git clone https://github.com/xipxoom/suwa-stb-framework.git
@@ -27,8 +27,8 @@ cd suwa-stb-framework
 
 We have two kinds of dependencies in this project: tools and angular framework code.  The tools help us manage and test the application.
 
-* We get the tools we depend upon via `npm`, the [node package manager][npm].
-* We get the angular code via `bower`, a [client-side code package manager][bower].
+* We get the tools we depend upon via `npm`, the node package manager.
+* We get the angular code via `bower`, a client-side code package manager.
 
 We have preconfigured `npm` to automatically run `bower` so we can simply do:
 
@@ -63,10 +63,10 @@ Now browse to the app at `http://localhost:8000`.
 I found it frustrating that the soup-to-bits screencast didn't have a fresh
 starting point for beginning the project.  This code will sync up with about 14:08 in the video but I still **HIGHLY** recommend watching up until that point.
 
-The video will still prompt you to copy code from the official finished app which can be found here:
+The official finished app can be found here:
 https://github.com/codeschool/AngularJSSTB
 
-This code is provided as-is with no support, guarantee, or warranty implied.  I have no official affiliation with AngularJS, angular-seed, or codeschool.
+This repository is provided as-is with no support, guarantee, or warranty implied.  I have no official affiliation with AngularJS, angular-seed, or codeschool.
 
 ### Changes
 
@@ -78,3 +78,5 @@ angular-seed that were not needed for this course.
 * Changed bower.json to also pull in bootstrap.
 
 * Changed index.html to load boostrap.min.css from bower_components.
+
+* Added the base review-form.html under partials.
