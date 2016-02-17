@@ -1,0 +1,12 @@
+{
+  "name": "Shaping Up With AngularJS - STB",
+  "description": "The starting code for Shaping Up WIth AngularJS - Soup to Bits",
+  "version": "0.0.0",
+  "homepage": "https://github.com/xipxoom/suwa-stb-framework.git",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "bootstrap": "^3.3.6"
+  }
+}
